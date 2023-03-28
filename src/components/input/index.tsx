@@ -1,4 +1,7 @@
+//Styles
 import { StyledLabel } from "./styles";
+
+//Types
 import { InputProps } from "./types";
 
 export function Input({ label, ...rest }: InputProps) {

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+//Types
 import { FlexProps } from "./types";
 
 export const Flex = styled.div<FlexProps>`
@@ -7,4 +8,5 @@ export const Flex = styled.div<FlexProps>`
   align-items: ${({ alignItems = "center" }) => alignItems};
   flex-direction: ${({ direction = "row" }) => direction};
   gap: ${({ gap = "0" }) => gap};
+  flex-wrap: ${({ flexWrap = "wrap" }) => flexWrap};
 `;

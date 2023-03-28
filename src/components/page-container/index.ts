@@ -1,3 +1,4 @@
+//Styles
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
@@ -17,6 +18,7 @@ export const PageContainer = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(0%, -50%);
+    z-index: 0;
   }
 
   .span_filter_animals {

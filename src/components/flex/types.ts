@@ -8,4 +8,5 @@ export type FlexProps = {
   alignItems?: "center" | "flex-start" | "flex-end";
   direction?: "column" | "row";
   gap?: string;
+  flexWrap?: "nowrap" | "wrap" | "wrap-reverse";
 };
