@@ -17,8 +17,6 @@ function App() {
 
   const [animalsFilter, setAnimalsFilter] = useState("");
 
-  const testeDePull = 'teste'
-
   return (
     <PageContainer>
       <IoIosPaw className="icon_paw_page_container" />
